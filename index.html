@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catch the Croissant - Crème & Crust</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Catch the Croissant</h1>
+    <div id="score-board">
+      <p>⏱ Time: <span id="timer">15</span> sec</p>
+      <p>⭐ Score: <span id="score">0</span></p>
+    </div>
+
+    <button id="start-btn">Start Game</button>
+
+    <div id="game-area"></div>
+
+    <div id="result-popup" class="hidden">
+      <h2>🎉 Game Over!</h2>
+      <p>Your Score: <span id="final-score"></span></p>
+      <div id="reward-message"></div>
+      <button onclick="location.reload()">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

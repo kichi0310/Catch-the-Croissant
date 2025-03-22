@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-image: url('background.png');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  padding: 20px;
+  color: #333;
+}
+
+#score-board {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#start-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f2b632;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#game-area {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  border: 2px solid #f2b632;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+
+.croissant {
+  position: absolute;
+  width: 50px;
+  cursor: pointer;
+  animation: fall linear;
+}
+
+.gold {
+  width: 60px;
+}
+
+.hidden {
+  display: none;
+}
+
+#result-popup {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff8e1;
+  border: 2px solid #f2b632;
+  padding: 20px;
+  border-radius: 10px;
+}
